@@ -1,6 +1,5 @@
 <?php
 
-
 function mergeBoth($list, $list2) {
 	$both = array_merge($list, $list2);
 	sort($both);
