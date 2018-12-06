@@ -7,7 +7,7 @@ function check_password_string($password) {
 	if (mb_strlen($password) != 6) {
 		return 2;
 	}
-	if (!is_numeric($password)) {
+	if (!is_int($password)) {
 		return 3;
 	}
 	if (!ctype_digit($password)) {
