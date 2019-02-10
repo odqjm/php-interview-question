@@ -1,6 +1,6 @@
 <?php
 /**
- * NAME: 防SQL注入一般使用那些函数.php
+ * NAME: 防SQL注入的函数.php
  * Author: eps
  * DateTime: 12/6/2018 12:19 PM
  */
